@@ -4,5 +4,8 @@
    run commands below in 2nd tab of terminal
 
 3] GET REQUESTS
+   //all employees
    curl -X GET -H "Content-Type:application/json" "http://localhost:3000/employees"
 
+    //employee with id 1
+    curl -X GET -H "Content-Type:application/json" "http://localhost:3000/employees/1"
