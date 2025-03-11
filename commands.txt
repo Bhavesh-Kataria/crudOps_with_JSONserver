@@ -17,3 +17,7 @@
 5] PUT REQUESTS (Update op)
     // update sahil salary to 40
     curl -X PUT -H "Content-Type:application/json" "http://localhost:3000/employees/2" -d '{"name":"sahil","salary":"40"}'
+
+6] DELETE REQUESTS (Delete op)
+    // delete lisa record
+    curl -X DELETE -H "Content-Type: application/json" "http://localhost:3000/employees/4"
