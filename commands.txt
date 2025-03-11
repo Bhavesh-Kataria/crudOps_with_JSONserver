@@ -1,0 +1,8 @@
+1] json-server --watch empDB.json
+
+2] now jsom sever is running at port 3000 with this file data
+   run commands below in 2nd tab of terminal
+
+3] GET REQUESTS
+   curl -X GET -H "Content-Type:application/json" "http://localhost:3000/employees"
+
