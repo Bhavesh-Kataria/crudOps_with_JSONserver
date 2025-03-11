@@ -3,9 +3,13 @@
 2] now jsom sever is running at port 3000 with this file data
    run commands below in 2nd tab of terminal
 
-3] GET REQUESTS
+3] GET REQUESTS (Read op)
    //all employees
    curl -X GET -H "Content-Type:application/json" "http://localhost:3000/employees"
 
     //employee with id 1
     curl -X GET -H "Content-Type:application/json" "http://localhost:3000/employees/1"
+
+4] POST REQUESTS (Create op)
+    //add new employee Lisa
+    curl -X POST -H "Content-Type:application/json" "http://localhost:3000/employees" -d '{"id":"4","name":"Lisa","salary":"2"}'
