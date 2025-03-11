@@ -13,3 +13,7 @@
 4] POST REQUESTS (Create op)
     //add new employee Lisa
     curl -X POST -H "Content-Type:application/json" "http://localhost:3000/employees" -d '{"id":"4","name":"Lisa","salary":"2"}'
+
+5] PUT REQUESTS (Update op)
+    // update sahil salary to 40
+    curl -X PUT -H "Content-Type:application/json" "http://localhost:3000/employees/2" -d '{"name":"sahil","salary":"40"}'
